@@ -8,13 +8,20 @@ export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
+  // Handle navbar background on scroll
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50)
-    }
+    const handleScroll = () => setIsScrolled(window.scrollY > 50)
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
+
+  // Lock body scroll when mobile menu is open
+  useEffect(() => {
+    document.body.style.overflow = isMobileMenuOpen ? "hidden" : "auto"
+    return () => {
+      document.body.style.overflow = "auto"
+    }
+  }, [isMobileMenuOpen])
 
   const navLinks = [
     { href: "#home", label: "Home" },
@@ -25,85 +32,106 @@ export function Navigation() {
   ]
 
   return (
-    <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/95 backdrop-blur-lg border-b border-border/50" : "bg-transparent"
-      }`}
-    >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
-          <a href="#home" className="text-2xl font-bold group">
-            <span className="text-foreground group-hover:text-primary transition-colors">Sagar Almad</span>
-            
-          </a>
+    <>
+      {/* NAVBAR */}
+      <nav
+        className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
+          isScrolled
+            ? "bg-background/95 backdrop-blur-lg border-b border-border/50"
+            : "bg-transparent"
+        }`}
+      >
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-20">
+            {/* Logo */}
+            <a href="#home" className="text-2xl font-bold">
+              Sagar Almad
+            </a>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
-            {navLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors relative group"
-              >
-                {link.label}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300" />
+            {/* Desktop Navigation */}
+            <div className="hidden md:flex items-center gap-8">
+              {navLinks.map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm font-medium text-muted-foreground hover:text-primary transition"
+                >
+                  {link.label}
+                </a>
+              ))}
+
+              <a href="/sagar_resume.pdf" download>
+                <Button
+                  size="sm"
+                  variant="outline"
+                  className="gap-2 border-primary/40 text-primary hover:bg-primary hover:text-primary-foreground"
+                >
+                  <FileDown className="h-4 w-4" />
+                  Resume
+                </Button>
               </a>
-            ))}
-       <a href="/sagar_resume.pdf" download>
-  <Button
-    size="sm"
-    variant="outline"
-    className="
-      gap-2
-      bg-transparent
-      border-primary/40
-      text-primary
-      cursor-pointer
-      hover:bg-primary
-      hover:text-primary-foreground
-      hover:border-primary
-      transition-all
-      duration-300
-    "
-  >
-    <FileDown className="h-4 w-4" />
-    Resume
-  </Button>
-</a>
+            </div>
 
-
+            {/* Mobile Menu Button */}
+            <button
+              className="md:hidden z-50"
+              onClick={() => setIsMobileMenuOpen(true)}
+              aria-label="Open menu"
+            >
+              <Menu size={26} />
+            </button>
           </div>
-
-          {/* Mobile Menu Button */}
-          <button
-            className="md:hidden text-foreground hover:text-primary transition-colors"
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            aria-label="Toggle menu"
-          >
-            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
         </div>
+      </nav>
 
-        {/* Mobile Navigation */}
-        {isMobileMenuOpen && (
-          <div className="md:hidden pb-6 space-y-4 animate-in slide-in-from-top-4">
-            {navLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="block text-base font-medium text-muted-foreground hover:text-primary transition-colors py-2"
+      {/* MOBILE MENU */}
+      {isMobileMenuOpen && (
+        <div className="fixed inset-0 z-50 md:hidden">
+          {/* Backdrop */}
+          <div
+            className="absolute inset-0 bg-black/60"
+            onClick={() => setIsMobileMenuOpen(false)}
+          />
+
+          {/* Slide-in Drawer */}
+          <div className="absolute right-0 top-0 h-full w-72 bg-background shadow-xl animate-slide-in">
+            {/* Header */}
+            <div className="flex items-center justify-between px-6 py-5 border-b">
+              <span className="text-lg font-semibold">Menu</span>
+              <button
                 onClick={() => setIsMobileMenuOpen(false)}
+                aria-label="Close menu"
               >
-                {link.label}
+                <X size={24} />
+              </button>
+            </div>
+
+            {/* Links */}
+            <nav className="flex flex-col gap-6 px-6 py-8">
+              {navLinks.map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="text-base text-muted-foreground hover:text-primary transition"
+                >
+                  {link.label}
+                </a>
+              ))}
+
+              <a href="/sagar_resume.pdf" download>
+                <Button
+                  variant="outline"
+                  className="w-full gap-2 border-primary/40 text-primary"
+                >
+                  <FileDown className="h-4 w-4" />
+                  Resume
+                </Button>
               </a>
-            ))}
-            <Button size="sm" variant="outline" className="w-full gap-2 bg-transparent">
-              <FileDown className="h-4 w-4" />
-              Resume
-            </Button>
+            </nav>
           </div>
-        )}
-      </div>
-    </nav>
+        </div>
+      )}
+    </>
   )
 }

@@ -1,0 +1,12 @@
+1:"$Sreact.fragment"
+2:I[48005,["/_next/static/chunks/70e7950a99cae2b6.js","/_next/static/chunks/63d198b6f93dda16.js"],"Navigation"]
+3:I[52215,["/_next/static/chunks/70e7950a99cae2b6.js","/_next/static/chunks/63d198b6f93dda16.js"],"HeroSection"]
+4:I[99757,["/_next/static/chunks/70e7950a99cae2b6.js","/_next/static/chunks/63d198b6f93dda16.js"],"AboutSection"]
+5:I[47581,["/_next/static/chunks/70e7950a99cae2b6.js","/_next/static/chunks/63d198b6f93dda16.js"],"SkillsSection"]
+6:I[97433,["/_next/static/chunks/70e7950a99cae2b6.js","/_next/static/chunks/63d198b6f93dda16.js"],"ExperienceSection"]
+7:I[35432,["/_next/static/chunks/70e7950a99cae2b6.js","/_next/static/chunks/63d198b6f93dda16.js"],"ProjectsSection"]
+8:I[81976,["/_next/static/chunks/70e7950a99cae2b6.js","/_next/static/chunks/63d198b6f93dda16.js"],"ContactSection"]
+9:I[24995,["/_next/static/chunks/2661e958bd7c19be.js"],"OutletBoundary"]
+a:"$Sreact.suspense"
+0:{"buildId":"egkgc95pWVXv4aIs4hX-J","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen","children":[["$","$L2",null,{}],["$","$L3",null,{}],["$","$L4",null,{}],["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}],["$","$L8",null,{}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/63d198b6f93dda16.js","async":true}]],["$","$L9",null,{"children":["$","$a",null,{"name":"Next.MetadataOutlet","children":"$@b"}]}]]}],"loading":null,"isPartial":false}
+b:null

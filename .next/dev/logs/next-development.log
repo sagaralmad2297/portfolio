@@ -38,3 +38,165 @@
 [00:34:47.063] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
 [00:34:47.063] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
 [00:34:47.063] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#home","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765947648411}
+[00:40:24.779] Server  LOG      ✓ Compiled in 586ms
+[00:40:25.507] Browser ERROR   ./react-portfolio-website/app/page.tsx:7:1
+Export Navigation doesn't exist in target module
+   5 | import { ProjectsSection } from "@/components/projects-section"
+   6 | import { ContactSection } from "@/components/contact-section"
+>  7 | import { Navigation } from "@/components/navigation"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   return (
+
+The export Navigation was not found in module [project]/react-portfolio-website/components/navigation.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:40:26.503] Browser ERROR   ./react-portfolio-website/app/page.tsx:7:1
+Export Navigation doesn't exist in target module
+   5 | import { ProjectsSection } from "@/components/projects-section"
+   6 | import { ContactSection } from "@/components/contact-section"
+>  7 | import { Navigation } from "@/components/navigation"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   return (
+
+The export Navigation was not found in module [project]/react-portfolio-website/components/navigation.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:40:28.504] Browser ERROR   ./react-portfolio-website/app/page.tsx:7:1
+Export Navigation doesn't exist in target module
+   5 | import { ProjectsSection } from "@/components/projects-section"
+   6 | import { ContactSection } from "@/components/contact-section"
+>  7 | import { Navigation } from "@/components/navigation"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   return (
+
+The export Navigation was not found in module [project]/react-portfolio-website/components/navigation.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:40:28.660] Server  LOG      ✓ Compiled in 191ms
+[00:40:52.816] Server  LOG      ✓ Compiled in 139ms
+[00:40:53.501] Browser ERROR   ./react-portfolio-website/app/page.tsx:7:1
+Export Navigation doesn't exist in target module
+   5 | import { ProjectsSection } from "@/components/projects-section"
+   6 | import { ContactSection } from "@/components/contact-section"
+>  7 | import { Navigation } from "@/components/navigation"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   return (
+
+The export Navigation was not found in module [project]/react-portfolio-website/components/navigation.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:40:57.502] Browser ERROR   ./react-portfolio-website/app/page.tsx:7:1
+Export Navigation doesn't exist in target module
+   5 | import { ProjectsSection } from "@/components/projects-section"
+   6 | import { ContactSection } from "@/components/contact-section"
+>  7 | import { Navigation } from "@/components/navigation"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   return (
+
+The export Navigation was not found in module [project]/react-portfolio-website/components/navigation.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:41:06.502] Browser ERROR   ./react-portfolio-website/app/page.tsx:7:1
+Export Navigation doesn't exist in target module
+   5 | import { ProjectsSection } from "@/components/projects-section"
+   6 | import { ContactSection } from "@/components/contact-section"
+>  7 | import { Navigation } from "@/components/navigation"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   return (
+
+The export Navigation was not found in module [project]/react-portfolio-website/components/navigation.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:41:30.499] Browser ERROR   ./react-portfolio-website/app/page.tsx:7:1
+Export Navigation doesn't exist in target module
+   5 | import { ProjectsSection } from "@/components/projects-section"
+   6 | import { ContactSection } from "@/components/contact-section"
+>  7 | import { Navigation } from "@/components/navigation"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   return (
+
+The export Navigation was not found in module [project]/react-portfolio-website/components/navigation.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:41:38.500] Browser ERROR   ./react-portfolio-website/app/page.tsx:7:1
+Export Navigation doesn't exist in target module
+   5 | import { ProjectsSection } from "@/components/projects-section"
+   6 | import { ContactSection } from "@/components/contact-section"
+>  7 | import { Navigation } from "@/components/navigation"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   return (
+
+The export Navigation was not found in module [project]/react-portfolio-website/components/navigation.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:41:47.511] Browser ERROR   ./react-portfolio-website/app/page.tsx:7:1
+Export Navigation doesn't exist in target module
+   5 | import { ProjectsSection } from "@/components/projects-section"
+   6 | import { ContactSection } from "@/components/contact-section"
+>  7 | import { Navigation } from "@/components/navigation"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   return (
+
+The export Navigation was not found in module [project]/react-portfolio-website/components/navigation.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:42:02.510] Browser ERROR   ./react-portfolio-website/app/page.tsx:7:1
+Export Navigation doesn't exist in target module
+   5 | import { ProjectsSection } from "@/components/projects-section"
+   6 | import { ContactSection } from "@/components/contact-section"
+>  7 | import { Navigation } from "@/components/navigation"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   return (
+
+The export Navigation was not found in module [project]/react-portfolio-website/components/navigation.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:42:08.504] Browser ERROR   ./react-portfolio-website/app/page.tsx:7:1
+Export Navigation doesn't exist in target module
+   5 | import { ProjectsSection } from "@/components/projects-section"
+   6 | import { ContactSection } from "@/components/contact-section"
+>  7 | import { Navigation } from "@/components/navigation"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   return (
+
+The export Navigation was not found in module [project]/react-portfolio-website/components/navigation.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:42:14.508] Browser ERROR   ./react-portfolio-website/app/page.tsx:7:1
+Export Navigation doesn't exist in target module
+   5 | import { ProjectsSection } from "@/components/projects-section"
+   6 | import { ContactSection } from "@/components/contact-section"
+>  7 | import { Navigation } from "@/components/navigation"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export default function Home() {
+  10 |   return (
+
+The export Navigation was not found in module [project]/react-portfolio-website/components/navigation.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:43:28.652] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:43:28.652] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:43:28.652] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#home","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765948170025}
