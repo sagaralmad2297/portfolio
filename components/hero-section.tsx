@@ -128,9 +128,7 @@ export function HeroSection() {
   onClick={() => scrollToSection('about')}
 >
   <div className="flex flex-col items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
-    <span className="text-xs tracking-widest uppercase">
-      Scroll Down
-    </span>
+    
 
     <div className="w-6 h-10 rounded-full border-2 border-current flex justify-center">
       <span className="w-1.5 h-1.5 bg-current rounded-full mt-2" />

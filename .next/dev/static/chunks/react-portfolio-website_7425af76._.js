@@ -330,31 +330,21 @@ function HeroSection() {
                 onClick: ()=>scrollToSection('about'),
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$react$2d$portfolio$2d$website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex flex-col items-center gap-3 text-muted-foreground hover:text-primary transition-colors",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$react$2d$portfolio$2d$website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "text-xs tracking-widest uppercase",
-                            children: "Scroll Down"
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$react$2d$portfolio$2d$website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "w-6 h-10 rounded-full border-2 border-current flex justify-center",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$react$2d$portfolio$2d$website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: "w-1.5 h-1.5 bg-current rounded-full mt-2"
                         }, void 0, false, {
                             fileName: "[project]/react-portfolio-website/components/hero-section.tsx",
-                            lineNumber: 131,
-                            columnNumber: 5
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$react$2d$portfolio$2d$website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "w-6 h-10 rounded-full border-2 border-current flex justify-center",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$react$2d$portfolio$2d$website$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "w-1.5 h-1.5 bg-current rounded-full mt-2"
-                            }, void 0, false, {
-                                fileName: "[project]/react-portfolio-website/components/hero-section.tsx",
-                                lineNumber: 136,
-                                columnNumber: 7
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/react-portfolio-website/components/hero-section.tsx",
-                            lineNumber: 135,
-                            columnNumber: 5
+                            lineNumber: 134,
+                            columnNumber: 7
                         }, this)
-                    ]
-                }, void 0, true, {
+                    }, void 0, false, {
+                        fileName: "[project]/react-portfolio-website/components/hero-section.tsx",
+                        lineNumber: 133,
+                        columnNumber: 5
+                    }, this)
+                }, void 0, false, {
                     fileName: "[project]/react-portfolio-website/components/hero-section.tsx",
                     lineNumber: 130,
                     columnNumber: 3
